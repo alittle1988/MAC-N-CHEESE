@@ -1,0 +1,207 @@
+
+
+.main{
+    position: relative;
+    top:200px;
+    padding-bottom: 50px;
+   
+}
+
+  @font-face {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTgY3KcC-wLOj.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/* header section */
+
+
+.headertitle{
+    height: 200px;
+    text-align: center;
+    z-index: 100;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.headertitle img{
+    height: 200px;
+    width: 100%;
+}
+
+h1{ text-align: center;
+    font-family: "Libre Baskerville", 'Times New Roman', Times, serif;
+    font-weight: 100px;
+    font-size: 60px;
+    position: fixed;
+    height: 200px;
+    padding-top: 30px;
+    top: 0px;
+    margin-top: 0;
+    z-index: 99;
+    width: 100%;
+    
+}
+/*intro section*/
+ .intro{
+     display: inline-flex;
+ }
+ .pintro{ 
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.introimg{
+    width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    justify-content: center;
+}
+
+.img1{ 
+    width: 100%;
+    border-radius: 25%;
+    margin-left: auto;
+    height: 200px;
+} 
+
+
+/* ingredients section */
+.mainingredients{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.ingredients{
+    clear: both;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+
+ul{ 
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 150px;
+    
+}
+
+.ul1{
+    height:auto;
+    justify-content: center;
+    width: 50%;
+}
+
+.ul2{ 
+    height: auto;
+    justify-content: center;
+    width: 50%;
+}
+
+/* Suplies Section */
+.supplysection{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.img2{
+    border-radius: 34%;
+    width: 90%;
+    
+    
+}
+
+.supplies{
+    text-align: center;
+    font-size: 30px; 
+    width: 100%;   
+}
+
+.supplyimg{
+    width: 50%;
+}
+
+.ul3{
+    width: 50%;
+}
+.ul3 ul a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Steps Section */
+
+
+.steps{ 
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    padding-right: 50px;
+}
+
+.stepsimg{
+    position: relative;
+}
+
+.img3{
+    float: right;
+    border-radius: 15%;
+    border: 5px solid black;
+    height: 1200px;
+    width: 700px;
+    position: absolute;
+    
+    opacity: .5;
+}
+
+.ol1{
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+/*closing section*/
+
+.closingsection{
+    margin-bottom: 50px;
+    position: relative;
+
+}
+.closingp{
+    font-size: 30px;
+    text-align: center;
+}
+
+/*footer section*/
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    border-top: 1px solid black ;
+    width: 100%;
+    display: inline-flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.footerdiv{
+   display: inline-block;
+   word-spacing: 150px;
+   text-align: center;
+   font-size: 31px;
+   width: 100%;
+}
+
+.footerdiv a{
+    text-decoration: none;
+}
