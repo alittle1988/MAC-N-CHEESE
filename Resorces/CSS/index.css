@@ -62,13 +62,6 @@ h1{ text-align: center;
     margin-right: 50px;
 }
 
-.introimg{
-    width: 100%;
-    margin: auto;
-    padding-left: 25px;
-    justify-content: center;
-}
-
 .img1{ 
     width: 100%;
     border-radius: 25%;
@@ -76,7 +69,11 @@ h1{ text-align: center;
     height: 200px;
 } 
 
-
+@media only screen and (max-width:500px){
+    .introimg{
+        display: none;
+    }
+}
 /* ingredients section */
 .mainingredients{
     display: inline-flex;
@@ -111,6 +108,12 @@ ul{
     width: 50%;
 }
 
+@media only screen and (max-width:500px){
+    ul{
+        padding: 0;
+    }
+}
+
 /* Suplies Section */
 .supplysection{
     display: inline-flex;
@@ -140,6 +143,15 @@ ul{
 .ul3 ul a {
     text-decoration: none;
     color: black;
+}
+
+@media only screen and (max-width:500px){
+    .img2{
+        display: none;
+    }
+    .ul3{ 
+        padding-left: 150px;
+    }
 }
 
 /* Steps Section */
