@@ -21,6 +21,10 @@ html{
 /* header section */
 
 
+
+.header{
+    background-color: rgb(206, 206, 206);
+}
 .headertitle{
     height: 200px;
     text-align: center;
